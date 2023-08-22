@@ -2,7 +2,8 @@
 
 * {
     font-family: 'Poppins', sans-serif;
-    margin: 0;
+    margin-top: 0;
+    margin-bottom: 0;
     padding: 0;
     box-sizing: border-box;
 }
@@ -13,7 +14,7 @@ body {
     justify-content: center;
     width: 100%;
     height: 100vh;
-    background-color: #18181b;
+    background-color: #ffffff;
 }
 
 #container {
@@ -32,7 +33,7 @@ body {
     gap: 2rem;
     padding: 2rem;
     color: #f8fafc;
-    background-color: #262626;
+    background-color: #391c1c;
     border-radius: 8px
 }
 
@@ -43,7 +44,7 @@ body {
 }
 
 #title {
-    font-size: 2.5rem;
+    font-size: 2.0rem;
     position: relative;
 }
 
@@ -62,22 +63,23 @@ body {
     font-size: 1.1rem;
     color: #cbd5e1;
     font-weight: 500px;
-
 }
 
 .input-field {
+    height: 45px;
     display: flex;
     align-items: center;
     justify-content: space-between;
-    background-color: #3f3f46;
+    background-color: #ffffff;
     padding: 0.3rem;
     border-radius: 3px;
-    margin-top: 3px;
+    margin-top: 0.2px;
+    margin-bottom: 0.2px;
 }
 
 .input-field span,
 .input-field i {
-   color: #cbd5e1;
+   color: red;
    font-size: 1.3rem;
    padding: 0.6rem 1rem;
 }
@@ -86,8 +88,8 @@ body {
     background-color: transparent;
     border: none;
     width: 100%;
-    font-size: 1.3rem;
-    color: #f8fafc;
+    font-size: 1.2rem;
+    color: red;
     padding: 0 0.5rem;
 }
 
@@ -102,7 +104,7 @@ body {
 
 #calculate {
     border: none;
-    font-size: 1.5rem;
+    font-size: 1.0rem;
     font-weight: bold;
     background-color: red;
     color: #f8fafc;
@@ -123,7 +125,7 @@ body {
     display: flex;
     align-items: center;
     flex-direction: column;
-    font-size: 2.25rem;
+    font-size: 2rem;
 }
 
 #bmi span:last-child {
